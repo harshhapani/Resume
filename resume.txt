@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>John Doe</h1>
+        <p>Computer Science Student | Web Developer</p>
+        <div class="contact-info">
+            <p>Email: johndoe@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Location: City, State</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="education">
+            <h2>Education</h2>
+            <p>B.S. in Computer Science</p>
+            <p>University Name, City, State - Expected Graduation: May 2025</p>
+        </section>
+
+        <section class="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Intern - Web Developer</h3>
+                <p>Company Name, City, State | June 2023 - August 2023</p>
+                <ul>
+                    <li>Developed and maintained websites using HTML, CSS, and JavaScript.</li>
+                    <li>Collaborated with designers to improve user experience.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Freelancer - Web Development</h3>
+                <p>Self-Employed | January 2023 - Present</p>
+                <ul>
+                    <li>Designed responsive websites for small businesses.</li>
+                    <li>Implemented SEO best practices to increase site traffic.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, Node.js</li>
+                <li>Git & GitHub</li>
+                <li>Responsive Design</li>
+                <li>Problem Solving</li>
+            </ul>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Personal Portfolio:</strong> A personal website showcasing my work.</li>
+                <li><strong>Task Manager:</strong> A web app for managing daily tasks.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <button id="downloadBtn">Download Resume</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
